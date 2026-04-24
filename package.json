@@ -1,12 +1,12 @@
 {
-  "name": "bot-embed",
+  "name": "bot-system-embed",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node deploy-command.js && node index.js"
   },
   "dependencies": {
-    "discord.js": "^14.0.0",
-    "dotenv": "^16.0.0"
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
   }
 }
